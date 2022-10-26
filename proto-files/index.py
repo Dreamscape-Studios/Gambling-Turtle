@@ -1,7 +1,6 @@
 ## index.py
 ## Contributors : Ben
 
-from argparse import Action
 from enum import Enum
 from time import sleep
 from tokenize import String
