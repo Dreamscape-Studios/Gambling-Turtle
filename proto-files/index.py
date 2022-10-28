@@ -1,10 +1,35 @@
 ## index.py
 ## Contributors : Ben
-
+import turtle
 from enum import Enum
 from time import sleep
 from tokenize import String
 from random import randint
+
+def drawPoolBar():
+    turtle.forward(100)
+    turtle.right(90)
+    turtle.forward(360)
+    turtle.right(90)
+    turtle.forward(100)
+    turtle.right(90)
+    turtle.forward(360)
+    turtle.right(90)
+turtle.speed("fastest")
+turtle.fillcolor("lime")
+turtle.pencolor("black")
+turtle.up()
+turtle.goto(-450, 0)
+turtle.down()
+turtle.begin_fill()
+drawPoolBar()
+turtle.end_fill()
+turtle.up()
+turtle.goto(350, 360)
+turtle.down()
+turtle.begin_fill()
+drawPoolBar()
+turtle.end_fill()
 
 roll_range = (1, 3)
 attack_range = (2, 6)
